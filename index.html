@@ -13,8 +13,13 @@
     <link href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" rel="stylesheet">
     <!-- Font-awesome css locally -->
     <link rel="stylesheet" href="css/font-awesome-icons.css">
+    <!-- Slick -->
+    <link rel="stylesheet" href="css/slick.css">
     <!-- Local style -->
     <link rel="stylesheet" href="css/style.css">
+    <!-- Slick Js -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>
     <title>Info-graphy</title>
 </head>
 
@@ -30,7 +35,7 @@
     <!-- Navbar -->
     <nav class="navbar navbar-expand-sm fixed-top navbar-dark bg-dark">
         <div class="container-fluid">
-            <a class="navbar-brand" href="index.html"><span class="water-brush">Infography</span></a>
+            <a class="navbar-brand text-warning" href="index.html"><span class="water-brush">Infography</span></a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                 data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
                 aria-label="Toggle navigation">
@@ -103,12 +108,12 @@
             <span class="visually-hidden">Next</span>
         </button>
     </div>
-    </div>
+
     <!-- Description -->
     <section class="descrption bg-dark">
         <div class="container-fluid ">
             <div class="grid">
-                <div class="row">
+                <div class="row ">
                     <div class="col-md-4 col-md-4">
                         <div class="card my-5">
                             <img src="media/images/reporter-1 (1).jpg" class="img-fluid" alt="desc-reporter-1" />
@@ -211,7 +216,7 @@
                             consequuntur rerum pariatur veritatis minima architecto temporibus debitis et.</p>
                     </div>
                     <div class="col-md-3 col-sm-3">
-                         <i class="fa fa-dollar-sign fa-4x text-success fw-bold"></i>
+                        <i class="fa fa-dollar-sign fa-4x text-success fw-bold"></i>
                         <h3 class="h4 my-3 text-uppercase water-brush">Money back gurantee</h3>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam voluptas repellendus
                             consequuntur rerum pariatur veritatis minima architecto temporibus debitis et.</p>
@@ -222,11 +227,132 @@
             </div>
         </div>
     </section>
-    <!-- Bootstrap javascript -->
+
+    <!-- Description with video -->
+    <section class="video__description bg-secondary p-5">
+        <div class="container-fluid my-5">
+            <div class="grid">
+                <div class="row  align-items-center">
+                    <div class="col-xl-6 col-sm-4">
+                        <p class="h4 fw-bold"> <span class="text-warning fw-bold water-brush">infography</span></p>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa provident ratione aliquam illo nesciunt at deleniti a similique necessitatibus fuga.
+                        </p>
+                    </div>
+                    <div class="col-xl-6 col-sm-4">
+                        <video src="media/videos/pexels-cottonbro-10464828.mp4" controls class="img-fluid" />
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="video__description bg-dark p-5">
+        <div class="container-fluid my-5">
+            <div class="grid">
+                <div class="row  align-items-center">
+                    <div class="col-xl-6 col-sm-4">
+                        <video src="media/videos/pexels-werner-pfennig-6952250.mp4" controls class="img-fluid" />
+                    </div>
+                      <div class="col-xl-6 col-sm-4">
+                        <p class="h4 fw-bold"> <span class="text-warning fw-bold water-brush">infography</span></p>
+                        <p class="text-white">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rem dolores possimus eligendi consequatur amet, nisi doloremque nihil minus vitae fuga. Nam reiciendis dolor sint iusto quasi quae odio in dignissimos?
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Sliders -->
+   <section class="our-sponsors  p-5">
+       <h3 class="h3 text-center fw-bold water-brush text-primary">Proudly Sponsor by</h3>
+        <div class="d-flex justify-content-between autoplay">
+        <div class="  py-5">
+            <img src="media/images/bbc-removebg-preview (1).png" class="img-fluid"/>
+        </div>
+        <div  class=" py-5">
+            <img src="media/images/cnn-removebg-preview.png" class="img-fluid"/>
+        </div>
+        <div  class=" py-5">
+            <img src="media/images/forbe-removebg-preview.png" class="img-fluid"/>
+        </div>
+        <div  class=" py-5">
+            <img src="media/images/virgin-removebg-preview.png" class="img-fluid"/>
+        </div>
+        <div  class=" py-5">
+            <img src="media/images/fox-removebg-preview (1).png" class="img-fluid"/>
+        </div>
+        <div  class=" py-5">
+            <img src="media/images/aljazera-removebg-preview.png" class="img-fluid"/>
+        </div>
+    </div>
+   </section>
+
+
+   <!--  FAQ -->
+   <div class="Faq p-5 bg-primary">
+       <h3 class="h3 text-center text-danger water-brush fw-bold">FAQ</h3>
+       <div class="container-fluid">
+           <div class="grid">
+               <div class="row">
+                   <div class="col-md-12">
+                    <div class="accordion accordion-flush" id="accordionFlushExample">
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="flush-headingOne">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+        The U.S General election
+      </button>
+    </h2>
+    <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+      <div class="accordion-body">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis, aperiam iste aut, illo molestias quo iusto saepe officia ipsam dicta labore perspiciatis sed tempore veniam eaque vero sapiente voluptatum omnis.</div>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="flush-headingTwo">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+        Covid-19 update
+      </button>
+    </h2>
+    <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+      <div class="accordion-body">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam fugiat maxime placeat optio similique dicta reiciendis aliquid fuga quaerat animi, incidunt et? Similique quam tempore, porro eius libero autem vel illo, sint ipsum architecto quod cupiditate temporibus est sequi nesciunt. <code>.accordion-flush</code> class. This is the second item's accordion body. Let's imagine this being filled with some actual content.</div>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="flush-headingThree">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+        Russia-Ukraine war
+      </button>
+    </h2>
+    <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+      <div class="accordion-body">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel, sed fuga dolorem in nostrum natus quas nesciunt esse fugiat. Reiciendis?</div>
+    </div>
+  </div>
+</div>
+                   </div>
+               </div>
+           </div>
+       </div>
+   </div>
+
+   <!-- Location -->
+   <div class="location p-5 bg-dark">
+       l
+   </div>
+    <script>
+  $('.autoplay').slick({
+  slidesToShow: 3,
+  slidesToScroll: 1,
+  autoplay: true,
+  autoplaySpeed: 2000,
+  arrows:false,
+
+});
+    </script>
     <script src="js/script.js">
     </script>
+
+    <!-- <script type="text/javascript" src="slick/slick.min.js"></script> -->
     <script src="js/bootstrap.bundle.js"></script>
     <script src="js/bootstrap.bundle.js.map"></script>
+    <script src="js/slick.min.js"></script>
 </body>
 
 </html>
